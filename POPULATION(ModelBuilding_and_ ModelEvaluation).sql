@@ -5,12 +5,17 @@
       -- WE COMPARE OUR PREDICTION WITH ACTUAL DATA TO SEE HOW ACCURATE OUE MODEL IS 
       
       
+
+
 -- A. CALCULATE AVERAGE YEARLY GROWTH RATE (how much populaton grew from 2010 - 2022)
 	
       select country , ((2022_population - 2010_population)/12) as avg_yearly_growth 
       from population_data_staging;
       
- -- B . PREDICT FUTURE POPULATION (EG:2030,2024)
+
+
+
+-- B . PREDICT FUTURE POPULATION (EG:2030,2024)
         -- FUTURE POPULATION = LATEST POPULATION +(YEARLY GROWTH * YEARS AHEAD)
         
      with growth_data as( 
@@ -22,6 +27,8 @@
       from growth_data;                   
                         
                         
+
+
 -- C . EVALUATE MODEL ACCURACY
         -- compare past predictions with actual values
         
@@ -42,6 +49,8 @@
       
       
       
+
+
 -- D . CREATING A NEW TABLE FOR PREDICTIONS ( FRO 2020,2022,2023,2040)
       
       create table population_predictions(
@@ -84,7 +93,7 @@
                      from population_data_staging) growth_data;
                      
 			
-            -- fro year 2040
+            -- for year 2040
            insert into population_predictions ( country , year , actual_population , predicted_population)
           select
                 country , 2040 as year , NULL AS ACTUAL_POPULATION , (2022_population+(avg_yearly_growth * 18)) as predicted_population
@@ -93,7 +102,11 @@
                      ((2022_population-2010_population)/12 ) avg_yearly_growth 
                      from population_data_staging) growth_data;          
                      
-	-- E .  VERIFY THE TABLE
+
+
+
+
+-- E .  VERIFY THE TABLE
 
            select * from population_predictions;
 
