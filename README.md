@@ -9,7 +9,7 @@
 - [CONCLUSION](#CONCLUSION)
 - [FINAL THOUGHT](#FINAL-THOUGHT)
 
-## 1. INTRODUCTION
+##  INTRODUCTION
 
 This project is a comprehensive analysis of global population trends using SQL, Python (Jupyter Notebook), and Power BI. 
 
@@ -24,7 +24,7 @@ The project also evaluates the **prediction model** by testing it against histor
 
 ---
 
-## 2. PROJECT OVERVIEW
+##  PROJECT OVERVIEW
 
   The project follows a structured workflow:
 
@@ -72,7 +72,7 @@ The project also evaluates the **prediction model** by testing it against histor
 
 ---
 
-## 3. INSIGHTS FROM POWER BI DASHBOARD
+## INSIGHTS FROM POWER BI DASHBOARD
 
 The Power BI dashboard visualizes key population trends, including:
 
@@ -115,7 +115,7 @@ The Power BI dashboard visualizes key population trends, including:
 
 ---
 
-## 4. KEY RESULTS AND INSIGHTS FROM EDA
+## KEY RESULTS AND INSIGHTS FROM EDA
 
 ### Global Population Growth Trends
 
@@ -180,7 +180,7 @@ The Power BI dashboard visualizes key population trends, including:
 
 ---
 
-## 5.  HOW THIS PROJECT HELPS GOVERNMENT AND BUSINESSES
+##   HOW THIS PROJECT HELPS GOVERNMENT AND BUSINESSES
 
 ### For Businesses:
 
@@ -239,7 +239,7 @@ Helps policymakers in designing long-term sustainability initiatives.
 
 ---
 
-## 6. CONCLUSION
+## CONCLUSION
 
 This project provides a data-driven analysis of global population trends, helping policymakers, businesses, and researchers make informed decisions. 
 
@@ -260,7 +260,7 @@ The integration of SQL for data processing, Python for analysis, and Power BI fo
 
 ---
 
-## 7. FINAL THOUGHTS
+##  FINAL THOUGHTS
 
 This project showcases how data analytics, SQL, Python, and Power BI can be used to extract meaningful insights from large datasets. 
 
